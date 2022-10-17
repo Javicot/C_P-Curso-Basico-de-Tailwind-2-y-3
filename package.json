@@ -1,0 +1,26 @@
+{
+  "name": "c_p-curso-basico-de-tailwind-2-y-3",
+  "version": "1.0.0",
+  "description": "Nuevo curso de la plataforma profesional de Platzi, en donde crearemos un nuevo una landing page de viajes: \"Platzi Travel\" incluirá el dark mode y plugins forms",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Javicot/C_P-Curso-Basico-de-Tailwind-2-y-3.git"
+  },
+  "keywords": [],
+  "author": "Javier Tintaya <jhosimart42@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Javicot/C_P-Curso-Basico-de-Tailwind-2-y-3/issues"
+  },
+  "homepage": "https://github.com/Javicot/C_P-Curso-Basico-de-Tailwind-2-y-3#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.12",
+    "postcss": "^8.4.18",
+    "tailwindcss": "^3.1.8",
+    "vite": "^3.1.8"
+  }
+}
