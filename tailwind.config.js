@@ -23,6 +23,10 @@ module.exports = {
           950: "#17275c",
         },
       },
+      backgroundImage: {
+        sanFrancisco: "./img/sanFrancisco.jpg",
+        norway: "./img/norway.jpg",
+      },
     },
   },
   plugins: [],
