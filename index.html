@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="./CSS/tailwind.css">
 </head>
 
-<body>
+<body class="font-Montserrat">
   <!-- NAVBAR -->
   <nav id=""></nav>
 
@@ -23,9 +23,11 @@
       <div class="w-full h-3/4">
         <!-- Input y boton -->
         <div class="w-full h-full flex flex-col absolute space-y-96 py-4 items-center">
-          <input type="search" name="" id="" class="outline-none p-3 rounded-full shadow-sm"
+          <input type="search" name="" id=""
+            class="outline-none p-3 rounded-full shadow-sm transition duration-300 focus-within:shadow-sm focus:ring-2 focus:w-11/12"
             placeholder="San Francisco">
-          <button class="w-36 rounded-full text-lg text-primary font-semibold p-4 bg-white shadow-sm">Explorar</button>
+          <button
+            class="w-48 rounded-full text-lg text-primary font-semibold p-4 bg-white shadow-sm transition  duration-500 ease-in-out hover:bg-primary hover:text-white transform hover:translate-y-1 hover:scale-110">Explorar</button>
         </div>
         <!-- imagen -->
         <div class="w-full h-full">
@@ -39,7 +41,7 @@
       <p class="text-3xl font-semibold text-primary">Recomendados</p>
 
       <!-- Card contenedora -->
-      <div class="w-auto h-72 items-center mt-6 overflow-x-auto overscroll-x-contain flex gap-x-1">
+      <div class="w-auto h-72 items-center mt-6 overflow-x-auto overscroll-x-contain flex gap-x-1 overflow-y-hidden">
 
         <!-- card1 -->
         <div class="card">
@@ -56,10 +58,11 @@
           <div class="w-full h-3/5 rounded-t-lg bg-norway bg-cover"></div>
           <div class="bg-secondary w-full h-2/5 rounded-b-lg">
             <!--agregar un padding por si no se ve bien ↑-->
-            <p class="text-white font-bold text-xl px-4">Noruega</p>
-            <p class="text-white text-md px-4">Beutiful place</p>
+            <p class="text-white font-bold text-xl px-4">New York</p>
+            <p class="text-white text-md px-4">La gran manzana</p>
           </div>
         </div>
+
       </div>
     </div>
 
