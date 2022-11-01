@@ -24,8 +24,12 @@ module.exports = {
         },
       },
       backgroundImage: {
+        sf: "url('https://images.pexels.com/photos/1141853/pexels-photo-1141853.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')",
         sanFrancisco: "./img/sanFrancisco.jpg",
-        norway: "./img/norway.jpg",
+        norway:
+          "url('https://images.pexels.com/photos/1933239/pexels-photo-1933239.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')",
+        chicago:
+          "url('https://images.pexels.com/photos/1569012/pexels-photo-1569012.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')",
       },
     },
   },
